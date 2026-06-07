@@ -29,6 +29,32 @@ export default function ProjectsSection() {
       featured: true,
       status: "Live",
     },
+    {
+      id: 2,
+      title: "Box Club",
+      description:
+        "A modern web application built with a focus on delivering an engaging user experience.",
+      image: "/images/BoxClub.png",
+      liveUrl: "https://boxclubb.vercel.app/",
+      githubUrl: "#",
+      technologies: ["Next.js", "React", "Tailwind CSS"],
+      category: "Web Development",
+      featured: false,
+      status: "Live",
+    },
+    {
+      id: 3,
+      title: "PromptmaX",
+      description:
+        "A full-stack prompt engineering platform with a robust backend API, designed for managing and optimizing AI prompts.",
+      image: "/images/PromptmaX.png",
+      liveUrl: "https://promptmax-backend.onrender.com/",
+      githubUrl: "#",
+      technologies: ["Django", "Python", "Supabase", "Mistral AI", "Celery", "Redis"],
+      category: "Full Stack",
+      featured: false,
+      status: "Live",
+    },
   ];
 
   return (

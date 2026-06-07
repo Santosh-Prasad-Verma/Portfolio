@@ -63,7 +63,7 @@ export default function AboutSection() {
               Data Engineer
             </h3>
             <p className="text-zinc-400 mb-6">
-              Second-year B.Tech student (4th Semester) aspiring to become a Data Engineer. Strong foundation in SQL, Java, Python, and NoSQL, with hands-on academic exposure to data handling, analysis, and visualization.
+              Third-year B.Tech student aspiring to become a Data Engineer. Strong foundation in SQL, Java, Python, and NoSQL, with hands-on academic exposure to data handling, analysis, and visualization.
             </p>
             <p className="text-zinc-400 mb-6">
               Highly motivated to build scalable data solutions, ETL pipelines, and analytics-driven systems. I combine technical expertise with a passion for solving complex data challenges.
