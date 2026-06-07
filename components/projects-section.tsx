@@ -13,7 +13,7 @@ export default function ProjectsSection() {
       id: 1,
       title: "End-to-End E-Commerce Data Platform",
       description:
-        "Designed and developed a production-ready e-commerce platform using Next.js 14 and TypeScript with authentication, product catalog, cart, and order management. Designed a normalized PostgreSQL schema using Supabase. Implemented transactional data storage with Stripe and wrote advanced SQL queries using JOINs, GROUP BY, and CTEs to analyze sales and user behavior.",
+        "Built a full-stack e-commerce website with authentication, product catalog, cart, and order management using Next.js 14 and TypeScript. Used Supabase for database and Stripe for payments.",
       image: "/images/StrevoStore_thumbnail.png",
       liveUrl: "https://strevostore.vercel.app/",
       githubUrl: "https://github.com/Santosh-Prasad-Verma/Strevo_Store",
@@ -49,7 +49,7 @@ export default function ProjectsSection() {
         "A full-stack prompt engineering platform with a robust backend API, designed for managing and optimizing AI prompts.",
       image: "/images/PromptmaX.png",
       liveUrl: "https://promptmax-backend.onrender.com/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Santosh-Prasad-Verma/PromptmaX",
       technologies: ["Django", "Python", "Supabase", "Mistral AI", "Celery", "Redis"],
       category: "Full Stack",
       featured: false,
