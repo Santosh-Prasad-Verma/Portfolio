@@ -1,6 +1,6 @@
 ﻿
 <div align="center">
-       <img src="https://zirnozomedh1kces.public.blob.vercel-storage.com/Portfolio-Banner.png" alt="Tarun's Portfolio Banner" width="100%"/>
+       <img src="https://zirnozomedh1kces.public.blob.vercel-storage.com/Portfolio-Banner%281%29.png" alt="Tarun's Portfolio Banner" width="100%"/>
   
    <h1 align="center">🚀 <b>Tarun's Portfolio</b> 🚀</h1>
    <p align="center">
