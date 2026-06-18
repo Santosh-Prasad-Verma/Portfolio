@@ -13,7 +13,6 @@ export default function Header() {
               options={{
                 strings: [
                   "Data Engineer",
-                  "Data Analyst",
                 ],
                 autoStart: true,
                 loop: true,

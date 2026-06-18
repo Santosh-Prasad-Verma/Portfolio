@@ -11,7 +11,7 @@ export default function ProjectsSection() {
   const projects = [
     {
       id: 1,
-      title: "End-to-End E-Commerce Data Platform",
+      title: "E-Commerce Website",
       description:
         "Built a full-stack e-commerce website with authentication, product catalog, cart, and order management using Next.js 14 and TypeScript. Used Supabase for database and Stripe for payments.",
       image: "/images/StrevoStore_thumbnail.png",
@@ -25,7 +25,7 @@ export default function ProjectsSection() {
         "SQL",
         "Stripe",
       ],
-      category: "Data Engineering",
+      category: "Full Stack",
       featured: true,
       status: "Live",
     },
@@ -36,7 +36,7 @@ export default function ProjectsSection() {
         "A modern web application built with a focus on delivering an engaging user experience.",
       image: "/images/BoxClub.png",
       liveUrl: "https://boxclubb.vercel.app/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Santosh-Prasad-Verma/Dashdeck",
       technologies: ["Next.js", "React", "Tailwind CSS"],
       category: "Web Development",
       featured: false,
@@ -44,6 +44,19 @@ export default function ProjectsSection() {
     },
     {
       id: 3,
+      title: "DashDeck",
+      description:
+        "A professionally designed collection of 15+ interactive dashboard presets for React & Next.js, including CRM, DevOps, Finance, Healthcare, Analytics, and Academy layouts. Use them as reference architectures or jumpstart your next admin panel.",
+      image: "/images/dashdeck.png",
+      liveUrl: "https://dashdeck-ui.vercel.app/",
+      githubUrl: "#",
+      technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      category: "UI/UX",
+      featured: true,
+      status: "Live",
+    },
+    {
+      id: 4,
       title: "PromptmaX",
       description:
         "A full-stack prompt engineering platform with a robust backend API, designed for managing and optimizing AI prompts.",
