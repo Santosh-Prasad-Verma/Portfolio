@@ -9,7 +9,7 @@ export default function Header() {
           Hi, I'm <span className="text-blue-500">Santosh Verma</span>— <br />
           <span className="text-purple-400">B.Tech Student & Aspiring Data Engineer</span>
         </h1>
-        <p className="text-neutral-300 max-w-lg mx-auto mt-[-2rem] text-lg text-center leading-relaxed relative z-10">
+        <p className="text-neutral-300 max-w-lg mx-auto mt-4 text-lg text-center leading-relaxed relative z-10">
           Building scalable data pipelines, analytics dashboards, and database solutions using Python, SQL, PostgreSQL, and cloud technologies.
         </p>
       </div>

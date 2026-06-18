@@ -48,8 +48,8 @@ export default function AboutSection() {
             About Me
           </h2>
           <p className="max-w-2xl text-zinc-400 text-center">
-            Third-year B.Tech student at Parul University building a career in
-            Data Engineering.
+            Get to know more about my background, skills, and what drives my
+            passion for Data Engineering.
           </p>
         </div>
 
