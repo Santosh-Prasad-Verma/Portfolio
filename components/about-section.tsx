@@ -10,7 +10,6 @@ import {
   Calendar,
   MapPin,
   BookOpen,
-  Star,
 } from "lucide-react";
 import { useScrollAnimation } from "../hooks/use-scroll-animation";
 import { smoothScroll } from "../utils/smooth-scroll";
@@ -49,8 +48,8 @@ export default function AboutSection() {
             About Me
           </h2>
           <p className="max-w-2xl text-zinc-400 text-center">
-            Get to know more about me, my background, and what drives my passion
-            for development.
+            Third-year B.Tech student at Parul University building a career in
+            Data Engineering.
           </p>
         </div>
 
@@ -60,13 +59,16 @@ export default function AboutSection() {
             ref={contentAnimation.ref}
           >
             <h3 className="text-2xl font-bold text-white mb-4">
-              Data Engineer
+              Aspiring Data Engineer
             </h3>
             <p className="text-zinc-400 mb-6">
-              Third-year B.Tech student aspiring to become a Data Engineer. Strong foundation in SQL, Java, Python, and NoSQL, with hands-on academic exposure to data handling, analysis, and visualization.
+              I'm a third-year B.Tech student in Computer Science Engineering (Big Data Analytics) at Parul University, passionate about transforming raw data into meaningful insights and scalable solutions.
             </p>
             <p className="text-zinc-400 mb-6">
-              Highly motivated to build scalable data solutions, ETL pipelines, and analytics-driven systems. I combine technical expertise with a passion for solving complex data challenges.
+              My journey in Data Engineering revolves around designing efficient databases, building ETL pipelines, analyzing datasets, and creating data-driven applications using Python, SQL, PostgreSQL, MongoDB, and modern analytics tools. I enjoy solving complex problems and turning data into actionable information that supports better decision-making.
+            </p>
+            <p className="text-zinc-400 mb-6">
+              I'm continuously expanding my knowledge in Data Engineering, Cloud Technologies, and Big Data ecosystems while building projects that strengthen my practical skills and industry readiness.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -80,7 +82,7 @@ export default function AboutSection() {
                   </h4>
                 </div>
                 <p className="text-zinc-400 text-sm">
-                  Specialized in Python, SQL, NoSQL, and Data Analysis.
+                  Python, SQL, PostgreSQL, MongoDB, and analytics tools.
                 </p>
               </div>
 
@@ -92,7 +94,7 @@ export default function AboutSection() {
                   <h4 className="text-white font-medium">Approach</h4>
                 </div>
                 <p className="text-zinc-400 text-sm">
-                  Focused on building scalable data pipelines, optimizing query performance, and ensuring data integrity.
+                  Building efficient databases, ETL pipelines, and data-driven applications that support better decision-making.
                 </p>
               </div>
 
@@ -104,8 +106,7 @@ export default function AboutSection() {
                   <h4 className="text-white font-medium">Learning</h4>
                 </div>
                 <p className="text-zinc-400 text-sm">
-                  Always exploring new technologies and methodologies to stay at
-                  the cutting edge.
+                  Expanding skills in Cloud Technologies, Big Data ecosystems, and industry-ready project development.
                 </p>
               </div>
             </div>
@@ -214,111 +215,7 @@ export default function AboutSection() {
                 </div>
               </motion.div>
 
-              <motion.div
-                className="mb-16 relative"
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-              >
-                <div className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 z-10"></div>
 
-                {/* Connecting line from dot to card */}
-                <div className="absolute -left-[39px] top-5 h-8 w-0.5 bg-gradient-to-b from-blue-500 to-transparent"></div>
-
-                <div className="bg-gradient-to-br from-zinc-900/40 to-zinc-800/20 backdrop-blur-sm border border-zinc-800/50 rounded-lg p-6 hover:border-zinc-700/70 transition-all duration-300 group">
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                    <div className="flex items-center">
-                      <div className="bg-gradient-to-r from-blue-500/10 to-purple-600/10 p-2 rounded-md mr-3">
-                        <BookOpen className="w-5 h-5 text-purple-400" />
-                      </div>
-                      <h4 className="text-white font-bold text-lg">
-                        Class XII (Science Stream)
-                      </h4>
-                    </div>
-                    <span className="text-purple-400 text-sm flex items-center mt-2 md:mt-0 bg-zinc-900/50 px-3 py-1 rounded-full">
-                      <Calendar className="w-3 h-3 mr-1.5" />
-                      Completed July 2024
-                    </span>
-                  </div>
-
-                  <div className="ml-10 mb-3">
-                    <h5 className="text-blue-400 font-medium text-base">
-                      SKS Sr. Sec. School
-                    </h5>
-                    <p className="text-zinc-400 text-sm flex items-start mt-1">
-                      <MapPin className="w-4 h-4 mr-1.5 mt-0.5 flex-shrink-0" />
-                      Sector-86, Haryana (CBSE Board)
-                    </p>
-                  </div>
-
-                  <p className="text-zinc-300 text-sm flex items-center ml-10 mt-3">
-                    <Star className="w-4 h-4 text-yellow-500 mr-2" />
-                    Completed with distinction.
-                  </p>
-
-                  <div className="flex flex-wrap gap-2 mt-4 ml-10">
-                    <span className="text-xs px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">
-                      CBSE
-                    </span>
-                    <span className="text-xs px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/20">
-                      Science Stream
-                    </span>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div
-                className="relative"
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.6 }}
-              >
-                <div className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 z-10"></div>
-
-                {/* Connecting line from dot to card */}
-                <div className="absolute -left-[39px] top-5 h-8 w-0.5 bg-gradient-to-b from-blue-500 to-transparent"></div>
-
-                <div className="bg-gradient-to-br from-zinc-900/40 to-zinc-800/20 backdrop-blur-sm border border-zinc-800/50 rounded-lg p-6 hover:border-zinc-700/70 transition-all duration-300 group">
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                    <div className="flex items-center">
-                      <div className="bg-gradient-to-r from-blue-500/10 to-purple-600/10 p-2 rounded-md mr-3">
-                        <BookOpen className="w-5 h-5 text-blue-400" />
-                      </div>
-                      <h4 className="text-white font-bold text-lg">
-                        Class X (Academic Excellence)
-                      </h4>
-                    </div>
-                    <span className="text-purple-400 text-sm flex items-center mt-2 md:mt-0 bg-zinc-900/50 px-3 py-1 rounded-full">
-                      <Calendar className="w-3 h-3 mr-1.5" />
-                      Completed May 2022
-                    </span>
-                  </div>
-
-                  <div className="ml-10 mb-3">
-                    <h5 className="text-blue-400 font-medium text-base">
-                      DPS, Sector-45
-                    </h5>
-                    <p className="text-zinc-400 text-sm flex items-start mt-1">
-                      <MapPin className="w-4 h-4 mr-1.5 mt-0.5 flex-shrink-0" />
-                      Gurgaon, Haryana (CBSE Board)
-                    </p>
-                  </div>
-
-                  <p className="text-zinc-300 text-sm flex items-center ml-10 mt-3">
-                    <Star className="w-4 h-4 text-yellow-500 mr-2" />
-                    Foundation for technical career.
-                  </p>
-
-                  <div className="flex flex-wrap gap-2 mt-4 ml-10">
-                    <span className="text-xs px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">
-                      CBSE
-                    </span>
-                    <span className="text-xs px-2 py-0.5 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/20">
-                      Academic Excellence
-                    </span>
-                  </div>
-                </div>
-              </motion.div>
             </div>
           </div>
 
